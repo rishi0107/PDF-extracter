@@ -158,7 +158,7 @@ if __name__ == '__main__':
     else:
         print("File not supported")
 
-    print('Name: ', "Rishikesh Patil")
+    print('Name: ',extract_name(textinput) )
     print('Qualification: ', extract_education(textinput))
     print('College or university: ', extract_college(textinput))
     print('Skills:', extract_skills(textinput))
